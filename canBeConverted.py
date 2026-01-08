@@ -1,8 +1,4 @@
-#Validating data part 2
-
-
-#a)
-#input
+#Validating data 
 
 def toInt(s):
 
@@ -24,7 +20,6 @@ def toInt(s):
 
     return isanumber
 
-#a2)
 #input
 
 def toReal(s):
@@ -60,10 +55,6 @@ def toReal(s):
     return isanumber
 
 
-
-
-#b)
-
 if __name__ == '__main__':
 
     #given some test cases and expected results
@@ -98,11 +89,6 @@ if __name__ == '__main__':
             print('Test data {} has a bug in toReal'.format([i]))
 
         # and see if result matches expected result
-
-
-
-#c)
-
 
 
 
